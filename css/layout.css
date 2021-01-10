@@ -18,6 +18,17 @@
     background: transparent;
     /* padding: 0 20px; */
 }
+.subscribe-letter{
+    width: 100%;
+    background: #dae1e7;
+}
+.subscribe-section-wrapper{
+    margin: 0 auto;
+}
+.testimonials{
+    padding: 100px 0 94px 0;
+    margin: 0 auto;
+}
 /**body parts ends**/
 
 @media(min-width: 480px){
