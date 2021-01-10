@@ -1,0 +1,15 @@
+.header{
+    background-image: url("../images/banner_02.png");
+    background-size: cover;
+}
+
+.header-wrapper{
+    margin: 0 auto;
+}
+
+
+@media(min-width: 1200px){
+    .container {
+        width: 73.125em;/**1170px is the width**/
+    }
+}

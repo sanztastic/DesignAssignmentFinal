@@ -1,0 +1,81 @@
+.header-navbar{
+    border-bottom: 5px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-logo-wrapper{
+    float: left;
+}
+.logo{
+    float: left;
+    padding: 24px 0px;
+    padding-right: 8px;
+}
+.logo-title{
+    font-weight: 700;
+    color: white;
+    padding: 28px 8px;
+    font-size: 36px;
+    float: right;
+}
+.float-clearer{
+    clear: both;
+}
+
+.navbar-logo-wrapper{
+    float: left;
+}
+.nav-wrapper{
+    float: right;
+    height: 100%;
+    padding: 40px 0;
+}
+.nav-wrapper ul{
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.nav-wrapper .navbar li {
+    display: inline;
+    padding: 13px 22px;
+}
+.nav-wrapper .navbar li.first{
+    padding-left: 0;
+}
+.nav-wrapper .navbar li.last{
+    padding-right: 26px;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.nav-wrapper .navbar li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar-icons{
+    float: right;
+}
+.navbar-icons ul{
+    padding: 0 25px;
+    float: left;
+}
+.navbar-icons ul li{
+    display: inline;
+    padding: 10px;  
+}
+.navbar-icons .login-btn{
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 16px 27px 15px 26px;
+    color: white;
+    background-color: #2f8be6;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -13px;
+}
+.navbar-icons .login-btn:hover{
+    background-color: #2f8ae67c;
+}
