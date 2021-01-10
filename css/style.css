@@ -93,22 +93,22 @@
 }
 .header-body-wrapper{
     /* width: 71.940170%; */
-    padding: 116px 13.529914%;
+    padding: 40px 20px;
     margin: 0 auto;
 }
 .header-body-header{
     display: inline-block;
-    font-size: 62px;
+    font-size: 35px;
     font-weight: 700;
     color: white;
     text-align: center;
 }
 .header-body-par{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
     color: white;
-    margin: 40px 0;
+    margin: 20px 0;
     box-sizing: border-box;
 }
 .header-body-buttons{
@@ -117,17 +117,21 @@
 .header-btn{
     color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     background-color: #86919d;
-    padding: 23px 25px;
+    padding: 18px 20px;
     border: none;
     border-radius: 5px;
-    margin: 0 10px;
+    margin: 10px 10px;
     cursor: pointer;
 }
 .header-btn:hover{
     background-color: #2f8be6;
 }
+
+/**body part starts**/
+
+/**body part ends**/
 
 @media(min-width:480px){
     
@@ -135,6 +139,25 @@
 @media(min-width:768px){
     .logo-title{
         font-size: 32px;
+    }
+    .header-body-wrapper{
+        /* width: 71.940170%; */
+        padding: 80px 13.529914%;
+        margin: 0 auto;
+    }
+    .header-body-header{
+        font-size: 55px;
+    }
+    .header-body-par{
+        font-size: 18px;
+        margin: 40px 0;
+    }
+    .header-btn{
+        font-size: 18px;
+        background-color: #86919d;
+        padding: 20px 22px;
+        margin: 0 10px;
+        cursor: pointer;
     }
 }
 @media(min-width:992px){
@@ -152,6 +175,25 @@
     }
     .burger-menu{
         display: none;
+    }
+    .header-body-header{
+        font-size: 62px;
+    }
+    .header-body-wrapper{
+        /* width: 71.940170%; */
+        padding: 116px 13.529914%;
+        margin: 0 auto;
+    }
+    .header-body-par{
+        font-size: 20px;
+        margin: 40px 0;
+    }
+    .header-btn{
+        font-size: 18px;
+        background-color: #86919d;
+        padding: 23px 25px;
+        margin: 0 10px;
+        cursor: pointer;
     }
 }
 @media(min-width:1200px){
