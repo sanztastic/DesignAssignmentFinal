@@ -9,15 +9,31 @@
 }
 
 /**body part starts**/
-
+.body{
+    background: #f1f5f8;
+}
+.body-wrapper{
+    position: relative;
+    margin: 0 auto;
+    background: transparent;
+    /* padding: 0 20px; */
+}
 /**body parts ends**/
 
 @media(min-width: 480px){
+    /* .container{
+        width: 28.125em;
+    } */
 }
 @media(min-width:768px){
+    /* .container {
+        width: 46.125em;
+    }  */
 }
 @media(width: 992px){
-    
+    .container {
+        width: 60.125em;
+    }  
 }
 @media(min-width: 1200px){
     .container {
@@ -25,5 +41,8 @@
     }
     .header-wrapper{
         padding: 0px;
+    }
+    .body-wrapper{
+        padding: 0;
     }
 }
