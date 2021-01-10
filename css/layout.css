@@ -5,11 +5,21 @@
 
 .header-wrapper{
     margin: 0 auto;
+    padding: 0 20px;
 }
 
-
+@media(min-width: 480px){
+}
+@media(min-width:768px){
+}
+@media(width: 992px){
+    
+}
 @media(min-width: 1200px){
     .container {
         width: 73.125em;/**1170px is the width**/
+    }
+    .header-wrapper{
+        padding: 0px;
     }
 }
