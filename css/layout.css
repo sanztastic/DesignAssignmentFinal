@@ -42,8 +42,17 @@
 }
 .footer-div{
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0;
     margin: 0 auto;
+}
+.footer-div .float-clearer{
+    margin-bottom: 100px;
+}
+.float-clear{
+    clear: both;
+    margin-bottom: 32px;
+}
+.last-footer{
 }
 
 @media(min-width: 480px){
