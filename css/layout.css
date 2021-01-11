@@ -28,8 +28,23 @@
 .testimonials{
     padding: 100px 0 94px 0;
     margin: 0 auto;
+    display: none;
+}
+.mockups{
+    margin: 0 auto;
+    padding-top: 98px;
+    text-align: center;
+    padding-bottom: 98px;
 }
 /**body parts ends**/
+.footer{
+    background: #21272c;
+}
+.footer-div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
 
 @media(min-width: 480px){
     /* .container{
@@ -40,6 +55,9 @@
     /* .container {
         width: 46.125em;
     }  */
+    .testimonials{
+        display: block;
+    }
 }
 @media(width: 992px){
     .container {

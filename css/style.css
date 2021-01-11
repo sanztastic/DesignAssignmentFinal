@@ -410,6 +410,7 @@
     background: #86919d;
 }
 .pricing-section{
+    display: none;
     width: inherit;
     padding: 100px 0;
 }
@@ -508,8 +509,9 @@
     padding: 100px 0;
 }
 .subscription-form{
-    width: inherit;
-    padding: 0 23.658119%;
+    width: 52%;
+    margin: 0 auto;
+    /* margin-left:23.658119%; */
 }
 .newsletter-header{
     font-weight: 500;
@@ -529,7 +531,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #86919d;
-    width: 39.145299%;
+    width: 76%;
     padding: 23px 16px;
     outline: none;
     border: none;
@@ -547,7 +549,7 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 23px 25px 20px 25px;
-    float: left;
+    float: right;
 }
 .testimonial-header{
     font-size: 34px;
@@ -563,7 +565,209 @@
     text-align: center;
     margin-bottom: 55px;
 }
+.testimony{
+    width: 48.717948%;
+    margin-bottom: 94px;
+    
+}
+.testimonials-list{
+    width: inherit;
+}
+.testimony.left{
+    float: left;
+}
+.testimony.right{
+    float: right;
+}
+.cloud{
+    background-image: url("../images/base.png");
+    background-size: cover;
+    height: 150px;
+    padding: 70px 52px;
+}
+.testimony-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #454545;
+}
+.testimony-user-img{
+    float: left;
+    margin-right: 15px;
+}
+.details{
+    float: left;
+    padding-top: 15px;
+}
+.details .user-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #454545;
+}
+.details .user-designation{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a2adb8;
+}
+.mockup-header{
+    font-size: 34px;
+    font-weight: 500;
+    color: #21272c;
+    text-align: center;
+}
+.mockup-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #86919d;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.mockup-btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #2f8be6;
+    padding: 21px 25px;
+    outline:none;
+    border:none;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 /**body part ends**/
+
+.footer-left{
+    float: left;
+    width: 48.888888%;
+}
+.footer-right{
+    float: right;
+    width: 48.717948%;
+}
+.digital{
+    float: left;
+    width: 47.552447%;
+}
+.digital-header{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.digital-paragraph{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;   
+}
+.quicklinks{
+    float: right;
+    width: 47.202797%;
+}
+.quicklinks-header{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-nav{
+    width: 100%;
+    color: #dae1e7;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-nav li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px dotted rgba(218, 197, 197, 0.623);
+    cursor: pointer;
+}
+.footer-nav li:hover{
+    text-decoration: underline;
+}
+.recent-post{
+    float: left;
+    width: 47.368421%;
+}
+.recent-post-header{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+.recent-post-list{
+    width: 100%;
+}
+.recent-post-list li{
+    display: inline-block;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(218, 197, 197, 0.623);
+}
+.recent-post-list li .post{
+    font-size: 16px;
+    font-weight: 400;
+    color: #dae1e7;
+    margin-bottom: 20px;
+}
+.recent-post-list li .date-of-post{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a2adb8;
+}
+
+.newsletter{
+    float: right;
+    width: 47.368421%;
+}
+.newsletter-header{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.newsletter-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #dae1e7;
+    width: 100%;
+    margin-bottom: 38px;
+    text-align: left;
+}
+.signup-newsletter{
+    width: 100%;
+}
+.signup-newsletter .signup-text{
+    float: left;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a2adb8;
+    outline: none;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.signup-newsletter .signup-btn{
+    float: left;
+    padding: 15px;
+    color: white;
+    background: #2f8be6;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
 
 @media(min-width:480px){
 
@@ -696,5 +900,8 @@
     }
     .product-box:nth-child(3n+2){
         margin: 0 30px;
+    }
+    .pricing-section{
+        display: block;
     }
 }
