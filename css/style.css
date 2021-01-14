@@ -71,7 +71,7 @@
     font-weight: 500;
     padding: 16px 27px 15px 26px;
     color: white;
-    background-color: #86919d;
+    background-color: #2f8be6;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -79,7 +79,7 @@
     margin-top: -16px;
 }
 .navbar-icons .login-btn:hover{
-    background-color: #2f8be6;
+    background-color: #86919d;
 }
 .burger-menu{
     display: block;
@@ -118,7 +118,7 @@
     color: white;
     font-weight: 500;
     font-size: 15px;
-    background-color: #86919d;
+    background: #2f8be6;
     padding: 18px 20px;
     border: none;
     border-radius: 5px;
@@ -126,7 +126,7 @@
     cursor: pointer;
 }
 .header-btn:hover{
-    background-color: #2f8be6;
+    background: #86919d;
 }
 
 /**body part starts**/
@@ -141,7 +141,7 @@
     /* top: -37px; */
     background: white;
     width: inherit;
-    box-shadow: -1px 2px 7px -2px black;
+    box-shadow: 1px 1px 7px -3px black;
     border: none;
     margin-bottom: 20px;
 }
@@ -155,6 +155,9 @@
     outline: none;
     background: transparent;
 }
+/* .search-dropdown .option{
+   
+} */
 .search-bar{
     font-size: 14px;
     font-weight: 400;
@@ -175,7 +178,7 @@
     float: right;
     padding: 8px 7px;
     cursor: pointer;
-    background: #86919d;
+    background: #2f8be6;
     outline: none;
     border: none;
     color: white;
@@ -183,7 +186,7 @@
     border-bottom-right-radius: 5px;
 }
 .search-btn:hover{
-    background: #2f8be6;
+    background: #86919d;
 }
 .search-filter{
     margin-top: 10px;
@@ -210,7 +213,7 @@
     margin-left: 5px;
     margin-bottom: 5px;
 }
-.filter-list li:hover{
+.filter-list li:hover,.filter-list .active{
     color: white;
     background: #2f8be6;
 }
@@ -227,7 +230,7 @@
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
-    border-bottom: 2px solid #949494;
+    box-shadow: 1px 1px 8px -4px black;
     background-color: #ffffff;
     padding-bottom: 15px;
     margin-bottom: 20px;
@@ -343,6 +346,7 @@
 }
 .box-paragraph{
     font: 16px;
+    line-height: 25px;
     font-weight: 400;
     padding: 7px 0 44px 0;
 }
@@ -552,6 +556,10 @@
     border-bottom-right-radius: 5px;
     padding: 23px 23px 20px 23px;
     float: right;
+    cursor: pointer;
+}
+.sub-btn:hover{
+    background-color: #86919d;
 }
 .testimonial-header{
     font-size: 34px;
@@ -584,11 +592,12 @@
 .cloud{
     background-image: url("../images/base.png");
     background-size: cover;
-    height: 150px;
-    padding: 70px 52px;
+    min-height: 150px;
+    padding: 50px 52px 52px 52px;
 }
 .testimony-paragraph{
     font-size: 20px;
+    line-height: 30px;
     font-weight: 400;
     font-style: italic;
     color: #454545;
@@ -637,6 +646,9 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.mockup-btn:hover{
+    background-color: #86919d;
+}
 
 /**body part ends**/
 
@@ -661,7 +673,8 @@
 }
 .digital-paragraph{
     font-size: 16px;
-    color: white;
+    line-height: 25px;
+    color: #dae1e7;
     font-weight: 400;   
 }
 .quicklinks{
@@ -714,6 +727,7 @@
 }
 .recent-post-list li .post{
     font-size: 16px;
+    line-height: 25px;
     font-weight: 400;
     color: #dae1e7;
     margin-bottom: 20px;
@@ -738,6 +752,7 @@
 }
 .newsletter-paragrapher{
     font-size: 16px;
+    line-height: 25px;
     font-weight: 400;
     color: #dae1e7;
     width: 100%;
@@ -771,6 +786,10 @@
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.signup-newsletter .signup-btn:hover{
+    background: #86919d;
 }
 .last-left{
     float: left;
@@ -822,7 +841,7 @@
     }
     .header-btn{
         font-size: 18px;
-        background-color: #86919d;
+        /* background-color: #86919d; */
         padding: 20px 22px;
         margin: 0 10px;
         cursor: pointer;
@@ -923,7 +942,7 @@
     }
     .header-btn{
         font-size: 18px;
-        background-color: #86919d;
+        /* background-color: #86919d; */
         padding: 23px 25px;
         margin: 0 10px;
         cursor: pointer;

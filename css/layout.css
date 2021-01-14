@@ -52,8 +52,9 @@
     clear: both;
     margin-bottom: 32px;
 }
-.last-footer{
-}
+/* .last-footer{
+    border-top: 1px solid #dae1e7;
+} */
 
 @media(min-width: 480px){
     /* .container{
