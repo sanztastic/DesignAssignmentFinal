@@ -435,9 +435,9 @@
     margin: 21px 0;
     float: left;
     padding: 50px 50px 50px 30px;
-    width: 270px;
+    width: 283.32px;
     background: white;
-    border-bottom: 2px solid #949494;
+    box-shadow: 1px 1px 8px -4px black;
 }
 .pricing-box.important{
     padding: 70px 50px;

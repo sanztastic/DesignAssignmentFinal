@@ -54,9 +54,9 @@
     clear: both;
     margin-bottom: 32px;
 }
-/* .last-footer{
-    border-top: 1px solid #dae1e7;
-} */
+.last-footer{
+    padding: 0 20px;
+}
 
 @media(min-width: 480px){
     /* .container{
@@ -92,5 +92,8 @@
     }
     .testimonials{
         display: block;
+    }
+    .last-footer{
+        padding: 0 0;
     }
 }
