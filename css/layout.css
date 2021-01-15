@@ -34,6 +34,8 @@
     margin: 0 auto;
     padding-top: 98px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 98px;
 }
 /**body parts ends**/
@@ -65,14 +67,18 @@
     /* .container {
         width: 46.125em;
     }  */
-    .testimonials{
-        display: block;
+    .mockups{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media(width: 992px){
     .container {
         width: 60.125em;
     }  
+    .testimonials{
+        display: block;
+    }
 }
 @media(min-width: 1200px){
     .container {
@@ -83,5 +89,8 @@
     }
     .body-wrapper{
         padding: 0;
+    }
+    .testimonials{
+        display: block;
     }
 }
